@@ -2,7 +2,6 @@ package vn.myclass.controller.admin;
 
 
 import javax.servlet.RequestDispatcher;
-import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,6 +17,6 @@ public class AdminController extends HttpServlet {
         rd.forward(request, response);
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws ServletException, IOException{
     }
 }
